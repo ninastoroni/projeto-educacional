@@ -1,3 +1,35 @@
+.accordion-body>ul>li>button{
+    
+    width: var(--width_barside);
+    height: 70px;
+    background-color: var(--color_dark_default);
+    color: white;
+
+}
+.accordion-body>ul>li>button span{
+    margin-left: 15px;
+}
+.accordion-body>ul>li>button :hover{
+background-color: var(--color_dark_hover);
+
+}
+.accordion-body>ul>li>button  focus{
+    background-color: var(--color_dark_default);
+    color:  white;
+    box-shadow: none;
+    }
+    
+.accordion-body>ul>li>button {
+    background-color: var(--color_dark_default);
+    color: white;
+}
+.accordion-body>ul>li>button:not(.collapsed){
+background-color: var(--color_dark_default);
+color: white;
+
+}
+
+
 #logo_side
 {
     color: white;
@@ -8,7 +40,7 @@
 #logo_side>img
 {
     width:100%;
-    margin:0px;
+    margin:5px;
 }
 #logo_side>p{
     animation-delay: 500ms;
